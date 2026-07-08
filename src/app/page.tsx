@@ -41,13 +41,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "10K+", label: "Meals Planned", icon: "🍽️" },
-              { value: "50K+", label: "Macros Calculated", icon: "📊" },
-              { value: "4.9★", label: "User Rating", icon: "⭐" },
-              { value: "100%", label: "Free Forever", icon: "🎯" },
+              { value: "10K+", label: "Meals Planned", icon: "calendar" },
+              { value: "50K+", label: "Macros Calculated", icon: "trending" },
+              { value: "4.9★", label: "User Rating", icon: "star" },
+              { value: "100%", label: "Free Forever", icon: "check" },
             ].map((s) => (
               <div key={s.label} className="space-y-1">
-                <div className="text-2xl">{s.icon}</div>
+                <div className="text-2xl">{s.icon === "calendar" ? <svg className="w-6 h-6 mx-auto text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2" strokeWidth="2"/><path d="M16 2v4M8 2v4M3 10h18" strokeWidth="2"/></svg> : s.icon === "trending" ? <svg className="w-6 h-6 mx-auto text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" strokeWidth="2"/></svg> : s.icon === "star" ? <svg className="w-6 h-6 mx-auto text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" strokeWidth="2"/></svg> : <svg className="w-6 h-6 mx-auto text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M20 6L9 17l-5-5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>}</div>
                 <div className="text-xl font-bold text-[#1a1a2e]">{s.value}</div>
                 <div className="text-sm text-[#737373]">{s.label}</div>
               </div>
@@ -67,12 +67,14 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-[#1a1a2e] mb-8 text-center">How It Works</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { step: "1", title: "Enter Your Details", desc: "Age, weight, height, activity level, and your goal.", icon: "📝" },
-              { step: "2", title: "Get Your Macros", desc: "Instant protein, carbs, and fat targets customized for you.", icon: "📊" },
-              { step: "3", title: "Eat the Plan", desc: "Generate meals that match your exact macro targets.", icon: "🍽️" },
+              { step: "1", title: "Enter Your Details", desc: "Age, weight, height, activity level, and your goal.", icon: "user" },
+              { step: "2", title: "Get Your Macros", desc: "Instant protein, carbs, and fat targets customized for you.", icon: "chart" },
+              { step: "3", title: "Eat the Plan", desc: "Generate meals that match your exact macro targets.", icon: "food" },
             ].map((item) => (
               <div key={item.step} className="bg-[#fafafa] rounded-xl p-6 text-center border border-[#e5e5e5] hover:shadow-md transition-shadow">
-                <div className="text-3xl mb-3">{item.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-3 rounded-xl bg-[#fff4f0] flex items-center justify-center">
+                  {item.icon === "user" ? <svg className="w-6 h-6 text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" strokeWidth="2"/><circle cx="12" cy="7" r="4" strokeWidth="2"/></svg> : item.icon === "chart" ? <svg className="w-6 h-6 text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M18 20V10M12 20V4M6 20v-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg> : <svg className="w-6 h-6 text-[#f07651]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" strokeWidth="2"/><path d="M8 12h8M12 8v8" strokeWidth="2"/></svg>}
+                </div>
                 <div className="w-8 h-8 bg-[#f07651] text-white rounded-lg flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   {item.step}
                 </div>
