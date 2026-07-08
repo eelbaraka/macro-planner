@@ -54,79 +54,79 @@ export default function HighProteinBreakfast() {
       <div className="container mx-auto max-w-4xl px-4">
         <p className="text-xs text-neutral-400 mt-3 mb-8">Photo by Brooke Lark on Unsplash</p>
 
-        <article className="prose prose-lg prose-neutral max-w-none">
+        <article className="max-w-none">
           {/* Lead paragraph */}
-          <p className="text-xl text-neutral-600 font-medium leading-relaxed">
+          <p className="text-xl text-[#737373] font-medium leading-relaxed mb-8">
             Breakfast is the most important meal of the day — especially when you're trying to lose weight.
             A high-protein breakfast keeps you full, boosts your metabolism, and prevents mid-morning cravings.
           </p>
 
-          <h2>Why High-Protein Breakfasts Work for Weight Loss</h2>
-          <p>
-            Studies show that eating <strong>25-30g of protein at breakfast</strong> can reduce cravings by up to 60%
+          <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-4 pb-2 border-b border-[#e5e5e5]">Why High-Protein Breakfasts Work for Weight Loss</h2>
+          <p className="text-[#525252] leading-relaxed mb-6">
+            Studies show that eating <strong className="text-[#1a1a1a]">25-30g of protein at breakfast</strong> can reduce cravings by up to 60%
             and increase satiety throughout the day. Protein has the highest thermic effect of food (TEF),
             meaning your body burns more calories digesting protein than carbs or fat.
           </p>
-          <ul>
-            <li><strong>Boosts metabolism</strong> — Protein digestion burns 20-30% of its calories</li>
-            <li><strong>Reduces cravings</strong> — High-protein breakfasts lower ghrelin (the hunger hormone)</li>
-            <li><strong>Preserves muscle</strong> — Essential during a calorie deficit for weight loss</li>
-            <li><strong>Increases satiety</strong> — Keeps you full for 3-4 hours longer than carb-heavy breakfasts</li>
+          <ul className="space-y-2 mb-8">
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Boosts metabolism</strong> — Protein digestion burns 20-30% of its calories</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Reduces cravings</strong> — High-protein breakfasts lower ghrelin (the hunger hormone)</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Preserves muscle</strong> — Essential during a calorie deficit for weight loss</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Increases satiety</strong> — Keeps you full for 3-4 hours longer than carb-heavy breakfasts</span></li>
           </ul>
 
-          <h2>15 Protein-Packed Breakfast Recipes</h2>
+          <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-6 pb-2 border-b border-[#e5e5e5]">15 Protein-Packed Breakfast Recipes</h2>
 
-          <h3>1. Protein-Packed Scrambled Eggs (38g Protein, 340 cal)</h3>
-          <p>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-8 mb-3">1. Protein-Packed Scrambled Eggs (38g Protein, 340 cal)</h3>
+          <p className="text-[#525252] leading-relaxed mb-3">
             Whisk 3 eggs with ½ cup egg whites and ¼ cup cottage cheese for an incredibly fluffy, protein-dense scramble. Cook in a non-stick pan with a teaspoon of olive oil. Serve with a side of sautéed spinach.
           </p>
-          <ul>
-            <li><strong>Calories:</strong> 340</li>
-            <li><strong>Protein:</strong> 38g</li>
-            <li><strong>Prep time:</strong> 8 minutes</li>
-          </ul>
+          <div className="flex gap-3 text-sm mb-6">
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">340 cal</span>
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">38g protein</span>
+            <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">8 min</span>
+          </div>
 
-          <h3>2. Greek Yogurt Protein Bowl (32g Protein, 290 cal)</h3>
-          <p>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-8 mb-3">2. Greek Yogurt Protein Bowl (32g Protein, 290 cal)</h3>
+          <p className="text-[#525252] leading-relaxed mb-3">
             Combine 1 cup of plain Greek yogurt (2%) with 1 scoop vanilla protein powder, ½ cup mixed berries, and 1 tablespoon of chia seeds. The yogurt provides casein protein while the protein powder adds fast-digesting whey — a perfect combo.
           </p>
-          <ul>
-            <li><strong>Calories:</strong> 290</li>
-            <li><strong>Protein:</strong> 32g</li>
-            <li><strong>Prep time:</strong> 5 minutes</li>
-          </ul>
+          <div className="flex gap-3 text-sm mb-6">
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">290 cal</span>
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">32g protein</span>
+            <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">5 min</span>
+          </div>
 
-          <h3>3. Cottage Cheese & Egg White Omelette (35g Protein, 310 cal)</h3>
-          <p>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-8 mb-3">3. Cottage Cheese & Egg White Omelette (35g Protein, 310 cal)</h3>
+          <p className="text-[#525252] leading-relaxed mb-3">
             Whisk 4 egg whites with ½ cup cottage cheese until smooth. Pour into a heated non-stick pan. Add chopped bell peppers, onions, and spinach. Fold and cook until golden.
           </p>
-          <ul>
-            <li><strong>Calories:</strong> 310</li>
-            <li><strong>Protein:</strong> 35g</li>
-            <li><strong>Prep time:</strong> 10 minutes</li>
-          </ul>
+          <div className="flex gap-3 text-sm mb-6">
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">310 cal</span>
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">35g protein</span>
+            <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">10 min</span>
+          </div>
 
-          <h3>4. Protein Oatmeal with Peanut Butter (36g Protein, 390 cal)</h3>
-          <p>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-8 mb-3">4. Protein Oatmeal with Peanut Butter (36g Protein, 390 cal)</h3>
+          <p className="text-[#525252] leading-relaxed mb-3">
             Cook ½ cup rolled oats with 1 cup milk of choice. Stir in 1 scoop vanilla or chocolate protein powder after cooking (don't cook the powder!). Top with 1 tablespoon peanut butter and sliced banana.
           </p>
-          <ul>
-            <li><strong>Calories:</strong> 390</li>
-            <li><strong>Protein:</strong> 36g</li>
-            <li><strong>Prep time:</strong> 10 minutes</li>
-          </ul>
+          <div className="flex gap-3 text-sm mb-6">
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">390 cal</span>
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">36g protein</span>
+            <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">10 min</span>
+          </div>
 
-          <h3>5. Turkey & Avocado Breakfast Wrap (40g Protein, 380 cal)</h3>
-          <p>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-8 mb-3">5. Turkey & Avocado Breakfast Wrap (40g Protein, 380 cal)</h3>
+          <p className="text-[#525252] leading-relaxed mb-3">
             Fill a whole wheat tortilla with 4 oz sliced turkey breast, ¼ avocado, 2 scrambled egg whites, and a handful of arugula. Roll tightly and toast in a pan for 2 minutes per side.
           </p>
-          <ul>
-            <li><strong>Calories:</strong> 380</li>
-            <li><strong>Protein:</strong> 40g</li>
-            <li><strong>Prep time:</strong> 12 minutes</li>
-          </ul>
+          <div className="flex gap-3 text-sm mb-6">
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">380 cal</span>
+            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">40g protein</span>
+            <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">12 min</span>
+          </div>
 
-          <h3>6–15: Quick Reference Table</h3>
+          <h3 className="text-xl font-bold text-[#1a1a1a] mt-10 mb-4">6–15: Quick Reference Table</h3>
           <div className="overflow-x-auto not-prose">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -161,25 +161,25 @@ export default function HighProteinBreakfast() {
             </table>
           </div>
 
-          <h2>Tips for High-Protein Breakfast Success</h2>
-          <ol>
-            <li><strong>Prep ahead:</strong> Make egg muffins, chia puddings, or protein pancakes on Sunday for the week</li>
-            <li><strong>Use protein powder:</strong> An easy way to add 20-30g protein without extra volume</li>
-            <li><strong>Include protein from multiple sources:</strong> Combine eggs + dairy, or meat + eggs for complete amino acid profiles</li>
-            <li><strong>Don't skip the veggies:</strong> Add spinach, peppers, or mushrooms for fiber and micronutrients</li>
-            <li><strong>Stay hydrated:</strong> Drink a glass of water before breakfast to aid digestion</li>
+          <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-4 pb-2 border-b border-[#e5e5e5]">Tips for High-Protein Breakfast Success</h2>
+          <ol className="space-y-2 mb-8 text-[#525252]">
+            <li><strong className="text-[#1a1a1a]">Prep ahead:</strong> Make egg muffins, chia puddings, or protein pancakes on Sunday for the week</li>
+            <li><strong className="text-[#1a1a1a]">Use protein powder:</strong> An easy way to add 20-30g protein without extra volume</li>
+            <li><strong className="text-[#1a1a1a]">Include protein from multiple sources:</strong> Combine eggs + dairy, or meat + eggs for complete amino acid profiles</li>
+            <li><strong className="text-[#1a1a1a]">Don't skip the veggies:</strong> Add spinach, peppers, or mushrooms for fiber and micronutrients</li>
+            <li><strong className="text-[#1a1a1a]">Stay hydrated:</strong> Drink a glass of water before breakfast to aid digestion</li>
           </ol>
 
-          <h2>Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-6 pb-2 border-b border-[#e5e5e5]">Frequently Asked Questions</h2>
 
-          <h3>How much protein should I eat at breakfast?</h3>
-          <p>Aim for <strong>25-40g of protein</strong> at breakfast. Research shows this amount optimizes muscle protein synthesis and keeps you full until lunch.</p>
+          <h3 className="text-lg font-bold text-[#1a1a1a] mt-6 mb-2">How much protein should I eat at breakfast?</h3>
+          <p className="text-[#525252] leading-relaxed mb-6">Aim for <strong className="text-[#1a1a1a]">25-40g of protein</strong> at breakfast. Research shows this amount optimizes muscle protein synthesis and keeps you full until lunch.</p>
 
-          <h3>Can I lose weight eating high-protein breakfasts?</h3>
-          <p>Yes. Multiple studies show that high-protein breakfasts (30g+) lead to greater fat loss compared to low-protein or carb-heavy breakfasts, even at the same calorie intake.</p>
+          <h3 className="text-lg font-bold text-[#1a1a1a] mt-6 mb-2">Can I lose weight eating high-protein breakfasts?</h3>
+          <p className="text-[#525252] leading-relaxed mb-6">Yes. Multiple studies show that high-protein breakfasts (30g+) lead to greater fat loss compared to low-protein or carb-heavy breakfasts, even at the same calorie intake.</p>
 
-          <h3>What if I don't have time to cook?</h3>
-          <p>Greek yogurt with protein powder, overnight oats, protein shakes, and pre-made egg muffins all take 5 minutes or less. Prep them the night before.</p>
+          <h3 className="text-lg font-bold text-[#1a1a1a] mt-6 mb-2">What if I don't have time to cook?</h3>
+          <p className="text-[#525252] leading-relaxed mb-6">Greek yogurt with protein powder, overnight oats, protein shakes, and pre-made egg muffins all take 5 minutes or less. Prep them the night before.</p>
         </article>
 
         {/* CTA */}
