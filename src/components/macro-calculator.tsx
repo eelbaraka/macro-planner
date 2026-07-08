@@ -117,11 +117,11 @@ export function MacroCalculator() {
                   onClick={() => setInputs({ ...inputs, goal: g.key as "lose" | "maintain" | "gain" })}
                   className={`py-3 px-2 rounded-xl text-sm font-medium transition-all ${
                     inputs.goal === g.key
-                      ? "bg-green-600 text-white shadow-sm"
+                      ? "bg-[#f07651] text-white shadow-sm"
                       : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
                   }`}
                 >
-                  {g.label}
+                  {g.key === "lose" ? "🔥 Lose Weight" : g.key === "maintain" ? "✅ Maintain" : "💪 Build Muscle"}
                 </button>
               ))}
             </div>
@@ -129,7 +129,7 @@ export function MacroCalculator() {
 
           <button
             onClick={handleCalculate}
-            className="w-full py-3.5 bg-gradient-to-r from-green-600 to-emerald-500 text-white rounded-xl font-semibold text-base hover:from-green-700 hover:to-emerald-600 transition-all shadow-lg shadow-green-200 hover:shadow-xl active:scale-[0.98]"
+            className="w-full py-3.5 bg-gradient-to-r from-[#f07651] to-[#e8633a] text-white rounded-xl font-semibold text-base hover:from-[#e0633a] hover:to-[#d4532a] transition-all shadow-lg shadow-orange-200 hover:shadow-xl active:scale-[0.98]"
           >
             Calculate My Macros
           </button>
