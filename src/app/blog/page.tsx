@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Nutrition Blog — Macro & Meal Prep Guides | MacroPlanner",
+  title: "Nutrition Blog — Macro & Meal Prep Guides",
   description:
     "Science-backed guides on macros, calorie deficits, meal prep, high-protein diets, and weight loss. Free nutrition advice from MacroPlanner.",
   openGraph: {
@@ -49,30 +49,6 @@ const posts = [
     image: "/images/blog/veggies.jpg",
     imageCredit: "Photo by Louis Hansel on Unsplash",
     keywords: ["how to count macros", "macro counting for beginners", "weight loss macros"],
-  },
-  {
-    slug: "healthy-oatmeal-recipes-protein",
-    title: "10 Healthy Oatmeal Recipes Packed with Protein (35g+ Per Serving)",
-    excerpt:
-      "Upgrade your morning oatmeal with these 10 protein-packed recipes. From peanut butter to berry blast, each bowl delivers 35g+ protein to fuel your day.",
-    date: "2026-07-07",
-    readTime: "8 min",
-    category: "Recipes",
-    image: "/images/blog/oatmeal.jpg",
-    imageCredit: "Photo by Joseph Gonzalez on Unsplash",
-    keywords: ["protein oatmeal", "healthy oatmeal recipes", "high protein breakfast"],
-  },
-  {
-    slug: "how-to-calculate-macros",
-    title: "How to Calculate Your Macros: Complete Beginner's Guide",
-    excerpt:
-      "Learn exactly how to calculate your daily protein, carbs, and fat targets for weight loss, muscle gain, or maintenance with our step-by-step guide.",
-    date: "2026-07-07",
-    readTime: "8 min",
-    category: "Guides",
-    image: "/images/blog/veggies.jpg",
-    imageCredit: "Photo by Louis Hansel on Unsplash",
-    keywords: ["macro calculator", "how to calculate macros", "macronutrient guide"],
   },
 ];
 

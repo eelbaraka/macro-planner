@@ -35,8 +35,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://macro-planner.vercel.app",
+    canonical: "https://macro-planner-murex.vercel.app",
   },
+  metadataBase: new URL("https://macro-planner-murex.vercel.app"),
 };
 
 export default function RootLayout({
