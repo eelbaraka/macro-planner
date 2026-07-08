@@ -12,21 +12,10 @@ export const metadata: Metadata = {
     template: "%s | MacroPlanner",
   },
   description:
-    "Calculate your daily macros (protein, carbs, fat) and get a personalized meal plan for free. Used by thousands to reach their fitness goals — lose weight, build muscle, or maintain.",
-  keywords: [
-    "macro calculator",
-    "meal planner",
-    "protein calculator",
-    "calorie counter",
-    "fitness calculator",
-    "weight loss calculator",
-    "TDEE calculator",
-    "BMR calculator",
-  ],
+    "Calculate your daily macros (protein, carbs, fat) and get a personalized meal plan for free.",
   openGraph: {
     title: "MacroPlanner — Free Macro Calculator & Meal Planner",
-    description:
-      "Calculate your daily macros and get a personalized meal plan in seconds. Free, no signup required.",
+    description: "Calculate your daily macros and get a personalized meal plan in seconds.",
     type: "website",
     locale: "en_US",
   },
@@ -46,8 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full`}>
-      <body className="min-h-full flex flex-col font-sans antialiased bg-neutral-50 text-neutral-900">
+    <html lang="en" className={`${inter.variable}`}>
+      <body className="min-h-screen flex flex-col font-sans antialiased bg-[#f5f5f5] text-[#1a1a1a]">
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
