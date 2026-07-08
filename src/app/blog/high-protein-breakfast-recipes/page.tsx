@@ -37,7 +37,7 @@ export default function HighProteinBreakfast() {
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="container mx-auto max-w-4xl">
             <div className="flex items-center gap-3 text-white/80 text-sm mb-3">
-              <span className="bg-green-500 text-white px-3 py-1 rounded-lg text-xs font-medium">Recipes</span>
+              <span className="bg-[#f07651] text-white px-3 py-1 rounded-lg text-xs font-medium">Recipes</span>
               <span>·</span>
               <span>July 8, 2026</span>
               <span>·</span>
@@ -68,10 +68,10 @@ export default function HighProteinBreakfast() {
             meaning your body burns more calories digesting protein than carbs or fat.
           </p>
           <ul className="space-y-2 mb-8">
-            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Boosts metabolism</strong> — Protein digestion burns 20-30% of its calories</span></li>
-            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Reduces cravings</strong> — High-protein breakfasts lower ghrelin (the hunger hormone)</span></li>
-            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Preserves muscle</strong> — Essential during a calorie deficit for weight loss</span></li>
-            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#16a34a] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Increases satiety</strong> — Keeps you full for 3-4 hours longer than carb-heavy breakfasts</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#f07651] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Boosts metabolism</strong> — Protein digestion burns 20-30% of its calories</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#f07651] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Reduces cravings</strong> — High-protein breakfasts lower ghrelin (the hunger hormone)</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#f07651] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Preserves muscle</strong> — Essential during a calorie deficit for weight loss</span></li>
+            <li className="flex items-start gap-2 text-[#525252]"><span className="text-[#f07651] mt-1.5">•</span><span><strong className="text-[#1a1a1a]">Increases satiety</strong> — Keeps you full for 3-4 hours longer than carb-heavy breakfasts</span></li>
           </ul>
 
           <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-6 pb-2 border-b border-[#e5e5e5]">15 Protein-Packed Breakfast Recipes</h2>
@@ -81,8 +81,8 @@ export default function HighProteinBreakfast() {
             Whisk 3 eggs with ½ cup egg whites and ¼ cup cottage cheese for an incredibly fluffy, protein-dense scramble. Cook in a non-stick pan with a teaspoon of olive oil. Serve with a side of sautéed spinach.
           </p>
           <div className="flex gap-3 text-sm mb-6">
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">340 cal</span>
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">38g protein</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">340 cal</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">38g protein</span>
             <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">8 min</span>
           </div>
 
@@ -91,8 +91,8 @@ export default function HighProteinBreakfast() {
             Combine 1 cup of plain Greek yogurt (2%) with 1 scoop vanilla protein powder, ½ cup mixed berries, and 1 tablespoon of chia seeds. The yogurt provides casein protein while the protein powder adds fast-digesting whey — a perfect combo.
           </p>
           <div className="flex gap-3 text-sm mb-6">
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">290 cal</span>
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">32g protein</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">290 cal</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">32g protein</span>
             <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">5 min</span>
           </div>
 
@@ -101,8 +101,8 @@ export default function HighProteinBreakfast() {
             Whisk 4 egg whites with ½ cup cottage cheese until smooth. Pour into a heated non-stick pan. Add chopped bell peppers, onions, and spinach. Fold and cook until golden.
           </p>
           <div className="flex gap-3 text-sm mb-6">
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">310 cal</span>
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">35g protein</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">310 cal</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">35g protein</span>
             <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">10 min</span>
           </div>
 
@@ -111,8 +111,8 @@ export default function HighProteinBreakfast() {
             Cook ½ cup rolled oats with 1 cup milk of choice. Stir in 1 scoop vanilla or chocolate protein powder after cooking (don't cook the powder!). Top with 1 tablespoon peanut butter and sliced banana.
           </p>
           <div className="flex gap-3 text-sm mb-6">
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">390 cal</span>
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">36g protein</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">390 cal</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">36g protein</span>
             <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">10 min</span>
           </div>
 
@@ -121,8 +121,8 @@ export default function HighProteinBreakfast() {
             Fill a whole wheat tortilla with 4 oz sliced turkey breast, ¼ avocado, 2 scrambled egg whites, and a handful of arugula. Roll tightly and toast in a pan for 2 minutes per side.
           </p>
           <div className="flex gap-3 text-sm mb-6">
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">380 cal</span>
-            <span className="bg-[#f0fdf4] text-[#16a34a] px-3 py-1 rounded-lg font-medium">40g protein</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">380 cal</span>
+            <span className="bg-[#fff4f0] text-[#f07651] px-3 py-1 rounded-lg font-medium">40g protein</span>
             <span className="bg-[#f5f5f5] text-[#737373] px-3 py-1 rounded-lg">12 min</span>
           </div>
 
@@ -130,7 +130,7 @@ export default function HighProteinBreakfast() {
           <div className="overflow-x-auto not-prose">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="bg-green-600 text-white">
+                <tr className="bg-[#f07651] text-white">
                   <th className="px-4 py-3 text-left font-medium rounded-tl-xl">Recipe</th>
                   <th className="px-4 py-3 text-center font-medium">Protein</th>
                   <th className="px-4 py-3 text-center font-medium">Calories</th>

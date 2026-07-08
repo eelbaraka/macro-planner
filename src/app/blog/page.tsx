@@ -50,16 +50,15 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-neutral-50 to-white">
       {/* Hero */}
-      <div className="bg-gradient-to-r from-green-600 via-green-500 to-emerald-500 text-white">
+      <div className="bg-gradient-to-r from-[#f07651] via-[#e8633a] to-[#d4532a] text-white">
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl">
-            <p className="text-green-100 text-sm font-medium mb-2">📝 Our Blog</p>
+            <p className="text-white/80 text-sm font-medium mb-2">Blog</p>
             <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
               Nutrition & Fitness Guides
             </h1>
-            <p className="text-green-100 text-lg max-w-xl">
-              Science-backed guides on macros, meal prep, weight loss, and muscle building.
-              Updated daily.
+            <p className="text-white/80 text-lg max-w-xl">
+              Science-backed guides on macros, meal prep, weight loss, and muscle building. Updated daily.
             </p>
           </div>
         </div>
@@ -80,13 +79,13 @@ export default function BlogPage() {
                     sizes="(max-width: 768px) 100vw, 45vw"
                     priority
                   />
-                  <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-lg text-sm font-medium shadow-lg">
+                  <div className="absolute top-4 left-4 bg-[#f07651] text-white px-3 py-1 rounded-lg text-sm font-medium shadow-lg">
                     Featured
                   </div>
                 </div>
                 <div className="md:w-[55%] p-6 md:p-8 flex flex-col justify-center">
                   <div className="flex items-center gap-2 text-sm text-neutral-500 mb-3">
-                    <span className="bg-green-100 text-green-700 px-2.5 py-0.5 rounded-lg font-medium text-xs">
+                    <span className="bg-[#fff4f0] text-[#c2410c] px-2.5 py-0.5 rounded-lg font-medium text-xs">
                       {posts[0].category}
                     </span>
                     <span>·</span>
@@ -94,11 +93,11 @@ export default function BlogPage() {
                     <span>·</span>
                     <span>{posts[0].readTime}</span>
                   </div>
-                  <h2 className="text-xl md:text-2xl font-bold mb-3 text-neutral-900 group-hover:text-green-600 transition-colors">
+                  <h2 className="text-xl md:text-2xl font-bold mb-3 text-neutral-900 group-hover:text-[#f07651] transition-colors">
                     {posts[0].title}
                   </h2>
                   <p className="text-neutral-500 text-sm leading-relaxed mb-4">{posts[0].excerpt}</p>
-                  <span className="text-green-600 font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                  <span className="text-[#f07651] font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
                     Read Article <span>→</span>
                   </span>
                 </div>
@@ -124,7 +123,7 @@ export default function BlogPage() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
-                    <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-green-700 px-2.5 py-0.5 rounded-lg text-xs font-medium shadow-sm">
+                    <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-[#c2410c] px-2.5 py-0.5 rounded-lg text-xs font-medium shadow-sm">
                       {post.category}
                     </div>
                   </div>
@@ -134,13 +133,13 @@ export default function BlogPage() {
                       <span>·</span>
                       <span>{post.readTime}</span>
                     </div>
-                    <h2 className="font-bold text-base text-neutral-900 mb-2 group-hover:text-green-600 transition-colors line-clamp-2">
+                    <h2 className="font-bold text-base text-neutral-900 mb-2 group-hover:text-[#f07651] transition-colors line-clamp-2">
                       {post.title}
                     </h2>
                     <p className="text-sm text-neutral-500 line-clamp-2 mb-3 flex-1 leading-relaxed">
                       {post.excerpt}
                     </p>
-                    <span className="text-green-600 font-medium text-xs flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">
+                    <span className="text-[#f07651] font-medium text-xs flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">
                       Read Article <span>→</span>
                     </span>
                   </div>
