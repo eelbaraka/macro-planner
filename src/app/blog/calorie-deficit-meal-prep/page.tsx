@@ -37,7 +37,7 @@ export default function CalorieDeficitMealPrep() {
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="container mx-auto max-w-4xl">
             <div className="flex items-center gap-3 text-white/80 text-sm mb-3">
-              <span className="bg-green-500 text-white px-3 py-1 rounded-lg text-xs font-medium">Meal Prep</span>
+              <span className="bg-[#f07651] text-white px-3 py-1 rounded-lg text-xs font-medium">Meal Prep</span>
               <span>·</span>
               <span>July 8, 2026</span>
               <span>·</span>
@@ -95,7 +95,7 @@ export default function CalorieDeficitMealPrep() {
                   <li><strong>Lunch:</strong> {m.l}</li>
                   <li><strong>Dinner:</strong> {m.d}</li>
                   <li><strong>Snack:</strong> {m.s}</li>
-                  <li className="font-bold text-green-700">{m.total}</li>
+                  <li className="font-bold text-[#c2410c]">{m.total}</li>
                 </ul>
               </div>
             );
@@ -116,7 +116,7 @@ export default function CalorieDeficitMealPrep() {
               <h4 className="font-bold text-neutral-800 mb-3">Proteins</h4>
               <ul className="space-y-1.5 text-sm text-neutral-600">
                 {["Chicken breast (1.5 lb)", "Chicken thighs (0.5 lb)", "Lean ground turkey (0.5 lb)", "Salmon fillet (0.5 lb)", "Cod fillet (0.5 lb)", "Pork tenderloin (0.5 lb)", "Shrimp (0.5 lb)", "Eggs (2 dozen)", "Turkey sausage (8 links)", "Protein powder (1 tub)"].map(item => (
-                  <li key={item} className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full" />{item}</li>
+                  <li key={item} className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#f07651] rounded-full" />{item}</li>
                 ))}
               </ul>
             </div>
@@ -124,7 +124,7 @@ export default function CalorieDeficitMealPrep() {
               <h4 className="font-bold text-neutral-800 mb-3">Produce &amp; Pantry</h4>
               <ul className="space-y-1.5 text-sm text-neutral-600">
                 {["Mixed vegetables (broccoli, asparagus, spinach, bell peppers)", "Sweet potatoes (2 large)", "Quinoa, brown rice, wild rice", "Greek yogurt (2 large tubs)", "Cottage cheese", "Almond milk", "Whole wheat bread/tortillas", "Berries, bananas, apples", "Peanut butter, almonds", "Olive oil, spices, sauces"].map(item => (
-                  <li key={item} className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full" />{item}</li>
+                  <li key={item} className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#f07651] rounded-full" />{item}</li>
                 ))}
               </ul>
             </div>
@@ -140,16 +140,16 @@ export default function CalorieDeficitMealPrep() {
           </ol>
 
           <h3>How many calories should I eat for a deficit?</h3>
-          <p>Use our <Link href="/" className="text-green-600 underline font-medium">free macro calculator</Link> to find your exact calorie target based on your age, weight, height, and activity level.</p>
+          <p>Use our <Link href="/" className="text-[#f07651] underline font-medium">free macro calculator</Link> to find your exact calorie target based on your age, weight, height, and activity level.</p>
         </article>
 
         {/* CTA */}
-        <div className="bg-gradient-to-r from-green-600 to-emerald-500 rounded-2xl p-8 md:p-10 my-10 text-center">
+        <div className="bg-gradient-to-r from-[#f07651] to-[#d4532a] rounded-2xl p-8 md:p-10 my-10 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">Get Your Personalized Plan</h2>
-          <p className="text-green-100 mb-6 max-w-lg mx-auto">
+          <p className="text-white/80 mb-6 max-w-lg mx-auto">
             Calculate your exact calorie deficit targets in seconds.
           </p>
-          <Link href="/" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-xl font-semibold hover:bg-green-50 transition-colors shadow-lg">
+          <Link href="/" className="inline-flex items-center gap-2 bg-white text-[#c2410c] px-6 py-3 rounded-xl font-semibold hover:bg-[#fff4f0] transition-colors shadow-lg">
             Calculate My Calorie Deficit →
           </Link>
         </div>

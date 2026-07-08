@@ -37,7 +37,7 @@ export default function CountMacrosBeginners() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
               <div className="flex items-center gap-2 text-white/80 text-sm mb-2">
-                <span className="bg-green-500 text-white px-2 py-0.5 rounded-full text-xs">Guides</span>
+                <span className="bg-[#f07651] text-white px-2 py-0.5 rounded-full text-xs">Guides</span>
                 <span>·</span>
                 <span>July 8, 2026</span>
                 <span>·</span>
@@ -61,22 +61,22 @@ export default function CountMacrosBeginners() {
             <p>
               Macronutrients ("macros") are the three main nutrients your body needs in large amounts:
             </p>
-            <div className="bg-green-50 rounded-xl p-6 not-prose">
+            <div className="bg-[#fff4f0] rounded-xl p-6 not-prose">
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl mb-1">🥩</div>
+                  <div className="text-3xl mb-1">Protein</div>
                   <h4 className="font-bold text-sm">Protein</h4>
                   <p className="text-xs text-neutral-600">4 cal/g</p>
                   <p className="text-xs text-neutral-500">Builds &amp; repairs muscle</p>
                 </div>
                 <div>
-                  <div className="text-3xl mb-1">🍚</div>
+                  <div className="text-3xl mb-1">Carbs</div>
                   <h4 className="font-bold text-sm">Carbs</h4>
                   <p className="text-xs text-neutral-600">4 cal/g</p>
                   <p className="text-xs text-neutral-500">Primary energy source</p>
                 </div>
                 <div>
-                  <div className="text-3xl mb-1">🥑</div>
+                  <div className="text-3xl mb-1">Fats</div>
                   <h4 className="font-bold text-sm">Fats</h4>
                   <p className="text-xs text-neutral-600">9 cal/g</p>
                   <p className="text-xs text-neutral-500">Hormones &amp; health</p>
@@ -95,7 +95,7 @@ export default function CountMacrosBeginners() {
               <li><strong>Muscle gain:</strong> TDEE + 300 calories</li>
             </ul>
             <p>
-              Use our <a href="/" className="text-green-600 underline">free macro calculator</a> to get your exact TDEE and calorie target in seconds.
+              Use our <a href="/" className="text-[#f07651] underline">free macro calculator</a> to get your exact TDEE and calorie target in seconds.
             </p>
 
             <h2>Step 2: Set Your Protein Target</h2>
@@ -129,14 +129,14 @@ export default function CountMacrosBeginners() {
             <div className="bg-neutral-50 rounded-xl p-6 not-prose">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm font-medium">Calories: <strong className="text-green-700">2,000</strong></p>
+                  <p className="text-sm font-medium">Calories: <strong className="text-[#c2410c]">2,000</strong></p>
                   <p className="text-sm">Protein: <strong>165g</strong> (2.2g/kg)</p>
                   <p className="text-sm">Carbs: <strong>200g</strong> (remaining cal)</p>
                   <p className="text-sm">Fat: <strong>55g</strong> (25% of cal)</p>
                 </div>
-                <div className="bg-green-50 rounded-lg p-3 text-center flex flex-col justify-center">
+                <div className="bg-[#fff4f0] rounded-lg p-3 text-center flex flex-col justify-center">
                   <p className="text-xs text-neutral-500">Use our tool</p>
-                  <a href="/" className="text-green-600 font-bold text-sm hover:underline">Calculate Your Macros →</a>
+                  <a href="/" className="text-[#f07651] font-bold text-sm hover:underline">Calculate Your Macros →</a>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function CountMacrosBeginners() {
                 <p><strong>Lunch:</strong> Grilled chicken salad (150g chicken, greens, 2 tbsp dressing) = 450 cal, 38g protein</p>
                 <p><strong>Dinner:</strong> Baked salmon (150g) + 1 cup roasted broccoli + ½ cup quinoa = 520 cal, 42g protein</p>
                 <p><strong>Snack:</strong> Greek yogurt (150g) + protein shake = 350 cal, 42g protein</p>
-                <p><strong>Total:</strong> 1,730 cal, 146g protein ✅</p>
+                <p><strong>Total:</strong> 1,730 cal, 146g protein</p>
               </div>
             </div>
 
@@ -181,12 +181,12 @@ export default function CountMacrosBeginners() {
             </ul>
 
             {/* CTA */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-xl p-8 my-8 text-center not-prose">
-              <h3 className="text-2xl font-bold text-green-800 mb-3">🎯 Start Counting Your Macros</h3>
-              <p className="text-green-700 mb-4">
+            <div className="bg-gradient-to-r from-[#fff4f0] to-[#fff4f0] border border-[#f07651]/30 rounded-xl p-8 my-8 text-center not-prose">
+              <h3 className="text-2xl font-bold text-[#9a3412] mb-3"> Start Counting Your Macros</h3>
+              <p className="text-[#c2410c] mb-4">
                 Get your personalized macro targets in seconds — free, no signup required.
               </p>
-              <a href="/" className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors">
+              <a href="/" className="inline-block bg-[#f07651] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#e0633a] transition-colors">
                 Calculate My Macros →
               </a>
             </div>

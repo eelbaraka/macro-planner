@@ -152,7 +152,7 @@ export default function HighProteinBreakfast() {
                 ].map((row, i) => (
                   <tr key={i} className={`border-b border-neutral-100 ${i % 2 === 0 ? "bg-white" : "bg-neutral-50"}`}>
                     <td className="px-4 py-2.5">{row[0]}</td>
-                    <td className="px-4 py-2.5 text-center font-medium text-green-700">{row[1]}</td>
+                    <td className="px-4 py-2.5 text-center font-medium text-[#c2410c]">{row[1]}</td>
                     <td className="px-4 py-2.5 text-center">{row[2]}</td>
                     <td className="px-4 py-2.5 text-center text-neutral-500">{row[3]}</td>
                   </tr>
@@ -183,12 +183,12 @@ export default function HighProteinBreakfast() {
         </article>
 
         {/* CTA */}
-        <div className="bg-gradient-to-r from-green-600 to-emerald-500 rounded-2xl p-8 md:p-10 my-10 text-center">
+        <div className="bg-gradient-to-r from-[#f07651] to-[#d4532a] rounded-2xl p-8 md:p-10 my-10 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">Find Your Exact Macros</h2>
-          <p className="text-green-100 mb-6 max-w-lg mx-auto">
+          <p className="text-white/80 mb-6 max-w-lg mx-auto">
             Use our free calculator to get your personalized protein, carb, and fat targets.
           </p>
-          <Link href="/" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-xl font-semibold hover:bg-green-50 transition-colors shadow-lg">
+          <Link href="/" className="inline-flex items-center gap-2 bg-white text-[#c2410c] px-6 py-3 rounded-xl font-semibold hover:bg-[#fff4f0] transition-colors shadow-lg">
             Calculate My Macros Now →
           </Link>
         </div>

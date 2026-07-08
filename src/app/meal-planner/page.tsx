@@ -37,7 +37,7 @@ export default function MealPlannerPage() {
                 { num: "03", title: "Regenerate & Customize", desc: "Not happy with the meals? Click regenerate for a new set." },
               ].map((step) => (
                 <div key={step.num} className="flex gap-5 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f07651] rounded-xl flex items-center justify-center text-white font-bold text-sm">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#f07651] to-[#d4532a] rounded-xl flex items-center justify-center text-white font-bold text-sm">
                     {step.num}
                   </div>
                   <div>
